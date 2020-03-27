@@ -148,6 +148,10 @@
   width: 168px;
 }
 
+.header__box .box-header__icons img {
+  cursor: pointer;
+}
+
 .header__nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1073,7 +1077,7 @@
 }
 
 .news__box img {
-  width: 363px;
+  width: 350px;
   height: 211px;
 }
 
@@ -1110,7 +1114,7 @@
 
 .news__box span {
   position: absolute;
-  margin-top: -180px;
+  margin-top: -187px;
   margin-left: -126px;
   display: -webkit-box;
   display: -ms-flexbox;
