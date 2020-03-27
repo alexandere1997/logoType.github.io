@@ -1,0 +1,146 @@
+.header
+  &__info
+    display: flex
+    justify-content: center
+    width: 100%
+    height: 45px
+    background-color: #1d1e1e
+  &__information
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__telefon
+    display: flex
+    align-items: center
+    p
+      font-family: 'Panton'
+      font-size: 13px
+      line-height: 25px
+      font-weight: 400
+      letter-spacing: 0.025em
+      color: #ffffff
+    a
+      font-family: 'Panton'
+      font-size: 20px
+      line-height: 25px
+      font-weight: 700
+      letter-spacing: 0.025em
+      color: #009ee2
+      text-decoration: none
+      margin-left: 47px
+  &__container
+    width: 1140px
+  &__inner
+    display: flex
+    align-items: center
+    justify-content: space-between
+    width: 513px
+    a
+      font-family: 'Panton'
+      font-size: 14px
+      line-height: 25px
+      font-weight: 400
+      letter-spacing: 0.025em
+      color: #ffffff
+      text-decoration: none
+    span
+      width: 7px
+      height: 7px
+      border-radius: 60px
+      border: 2.0px solid #6a6a6a
+  &__box
+    display: flex
+    justify-content: center
+    .box-header
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-top: 38px
+      &__forms
+        form
+          input
+            width: 556px
+            height: 42px
+            background-color: #ffffff
+            border: 1.0px solid #dddddd
+            border-radius: 4px
+            font-family: 'Panton'
+            font-size: 14px
+            line-height: 25px
+            font-weight: 400
+            letter-spacing: 0.05em
+            color: #1d1e1e
+            padding-left: 26px
+          img
+            margin-left: -30px
+            margin-bottom: -5px
+      &__icons
+        display: flex
+        justify-content: space-between
+        align-items: center
+        width: 168px
+  &__nav
+    display: flex
+    justify-content: center
+    .nav-header
+      display: flex
+      justify-content: space-between
+      align-items: center
+      margin-top: 37px
+      &__list
+        display: flex
+        flex-direction: row
+        justify-content: space-around
+        align-items: center
+        width: 263px
+        height: 60px
+        background-color: #009ee2
+        background-image: linear-gradient(-90.0deg, #0187c1 0%, #3ac0ef 100%)
+        cursor: pointer
+        p
+          font-family: 'Panton'
+          font-size: 18px
+          line-height: 25px
+          font-weight: 600
+          letter-spacing: 0.05em
+          color: #ffffff
+      &__line
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        height: 18px
+        span
+          display: block
+          height: 2px
+          width: 25px
+          background-color: #ffffff
+      &__link
+        display: flex
+        justify-content: space-around
+        align-items: center
+        width: 877px
+        height: 60px
+        background-color: #efefef
+        a
+          display: flex
+          align-items: center
+          font-family: 'Panton'
+          font-size: 14px
+          line-height: 25px
+          height: 100%
+          font-weight: 700
+          text-transform: uppercase
+          letter-spacing: 0.05em
+          color: #1d1e1e
+          text-decoration: none
+          transition: 0.4s
+          &:hover::after
+            content: ''
+            position: relative
+            left: -39px
+            bottom: 20px
+            border: 10px solid transparent 
+            border-top: 10px solid #fff
+            transition: 0.4s
+          &:hover
+            color: #009eee
